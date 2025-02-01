@@ -30,8 +30,36 @@ a:hover{
     color: darkgreen;
 }
 header,footer{
-    background:linear-gradient(to right,rgb(186, 27, 54),rgb(196, 180, 196));
+    background:linear-gradient(to right,rgb(57, 56, 56),rgb(223, 223, 22));
     color: rgb(45, 45, 43);
     padding: 1px;
     text-align:center;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    background: peru;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px lawngreen;
+    margin: 0 5px;
+}
+form{
+    width: 100%;
+    max-width: 500px;
+}
+img{
+    width: 250px;
+    height: 300px;
+    border-radius: auto;
+    box-shadow:0 5px 15px #df0808;
+    object-fit: cover;
+}
+section{
+    padding: 20px;
+    text-align: center;
 }
