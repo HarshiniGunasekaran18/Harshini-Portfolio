@@ -1,0 +1,37 @@
+body{
+    font-family:'poppins',sans-serif;
+    background-color: rgb(202, 216, 217);
+    color: black;
+    line-height: 1.5 ;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    width: 30%; 
+    margin: 20px auto;
+    border: 2px dashed rgb(41, 73, 75); 
+}
+h1,h2{
+    font-weight: 700;
+}
+li{
+    list-style-type: none;
+}
+p,a{
+    font-weight: 400;
+}
+a{
+    color: rgb(226, 43, 107);
+    text-decoration: none;
+    display: inline-block;
+    margin:5px 0;
+}
+a:hover{
+    color: darkgreen;
+}
+header,footer{
+    background:linear-gradient(to right,rgb(186, 27, 54),rgb(196, 180, 196));
+    color: rgb(45, 45, 43);
+    padding: 1px;
+    text-align:center;
+}
